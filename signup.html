@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurora - signup page</title>
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/login.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="wrapper"></div>
+    <header>
+      <h1 class="h1">AURORA</h1>
+    </header>
+
+    <form action="https://www.httpbin.org/" method="get">
+      <h2>Welcome to <span class="h1">AURORA</span> sign up now</h2>
+      <div class="input-field">
+        <label for="mail"></label><br />
+        <input
+          type="email"
+          id="mail"
+          name="mail"
+          placeholder="Your email"
+          autofocus
+          required
+        /><br />
+        <label for="fname"></label><br />
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Firstname"
+          required
+        /><br />
+        <label for="lname"></label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lname"
+          placeholder="Lastname"
+          required
+        /><br />
+        <label for="password"></label><br />
+        <input
+          type="password"
+          name="password"
+          id="password"
+          placeholder="Input password"
+          required
+        />
+        <label for="cpassword"></label><br />
+        <input
+          type="password"
+          name="cpassword"
+          id="cpassword"
+          placeholder="Confirm password"
+          required
+        />
+      </div>
+      <div class="submit-field">
+        <button type="submit" class="sub">Sign Up</button>
+      </div>
+      <small>Already have an account? <a href="login.html">Sign In.</a></small>
+      <small>____________________or____________________</small>
+      <p>
+        <i class="fab fa-google"></i>
+      </p>
+      <p>
+        <i class="fab fa-apple"></i>
+      </p>
+      <p>
+        <i class="fab fa-twitter"></i>
+      </p>
+    </form>
+  </body>
+</html>
