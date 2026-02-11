@@ -35,11 +35,6 @@ header {
   justify-content: space-between;
   border-bottom: 2px solid rgb(40, 138, 138);
   padding: 24px;
-  width: 100%;
-  position: fixed;
-  left: 0;
-  top: 0;
-  z-index: 1;
 }
 .h1 {
   text-shadow:
@@ -105,4 +100,13 @@ input::placeholder {
 }
 small a {
   color: rgb(40, 138, 138);
+}
+@media (max-width: 50em){
+  header{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
 }
