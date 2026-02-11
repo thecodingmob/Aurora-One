@@ -115,4 +115,16 @@ footer a:hover {
   .oth {
     display: none;
   }
+main{
+    height: 50vh;
+}
+article .hero{
+    padding: 1em;
+}
+.hero h2{
+    font-size: 3.1em;
+}
+.hero p{
+    font-size: 100%;
+}
 }
