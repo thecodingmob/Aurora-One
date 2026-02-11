@@ -127,4 +127,8 @@ article .hero{
 .hero p{
     font-size: 100%;
 }
+header,
+footer{
+    padding: 12px;
+}
 }
